@@ -122,6 +122,7 @@ class OnlineExamManager implements ExamGenerator, GradingSystem {
         if (question is MCQQuestion) {
           mcqQuestions.add(question);
         }
+        
       }
       for (Question question in questionBank) {
         if (question is TrueFalseQuestion) {
